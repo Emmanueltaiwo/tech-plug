@@ -1,0 +1,129 @@
+body {
+    background-color: orange;
+}
+
+.container1 {
+  background-color: grey;
+  width: 300px;
+  height: 90px;
+}
+
+
+.techlogo {
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: green;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: red;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-family: arial;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: blue;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: purple;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: lightcyan;
+  color: white;
+}
+
+h2 {
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: purple;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  color: darkblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container2 {
+  background-image: linear-gradient(to bottom right, green, yellow);
+  width: 300px;
+  height: 450px;
+}
+
+.amount {
+  background-color: white;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 159px;
+  height: 15px;
+  display: block;
+  text-align: center;
+  padding: 1em 1em;
+  margin-left: auto;
+  font-size: 15px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.container3 {
+  background-image: linear-gradient(to bottom right, green, yellow);
+  width: 300px;
+  height: 430px;
+}
+
+.container4 {
+  background-image: linear-gradient(to bottom right, green, yellow);
+  width: 300px;
+  height: 350px;
+}
+
+.container5 {
+  background-image: linear-gradient(to bottom right, green, yellow);
+  width: 300px;
+  height: 430px;
+}

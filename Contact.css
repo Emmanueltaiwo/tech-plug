@@ -1,0 +1,94 @@
+body {
+    background-color: orange;
+}
+
+.container1 {
+  background-color: grey;
+  width: 300px;
+  height: 90px;
+}
+
+
+.techlogo {
+  width: 80px;
+  height: 70px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: green;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: red;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-family: arial;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: blue;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: purple;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: lightcyan;
+  color: white;
+}
+
+h2 {
+				font-size: 30px;
+				color: purple;
+				text-align: center;
+}
+
+h3 {
+				color: darkblue;
+				font-size: 20px
+				font-family: Arial Black;
+}
+
+.container2 {
+				width: 300px;
+				height: 250px;
+				border-radius: 5px;
+				background-image: linear-gradient(to bottom right, green, yellow);
+}
+
+p {
+				color: red;
+				font-size: 15px;
+				text-align: center;
+}
